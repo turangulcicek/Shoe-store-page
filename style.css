@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease 0.3s;
+}
+
+.container h1 {
+  cursor: pointer;
+  font-family: "Caveat", cursive;
+}
+.container h1 span:hover {
+  color: white !important;
+}
+.container .navbar-brand:hover {
+  color: black !important;
+}
+
+.collapse li a {
+  font-weight: bolder;
+  font-size: 18px;
+  margin: 0px 10px;
+  color: white;
+}
+.collapse li a:hover {
+  color: black;
+}
+
+.dropdown-menu a {
+  color: black !important;
+  margin: 0px !important;
+}
+.dropdown-menu a:hover {
+  border-radius: 10px;
+}
+
+.icons i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.welcomesection-col h1 {
+  background: -webkit-linear-gradient(#eeeeee, #c54887);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-family: "Caveat", cursive;
+}
+.welcomesection-col h2 {
+  background: -webkit-linear-gradient(#eeeeee, #c54887);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-family: "Caveat", cursive;
+}
+
+.welcomesection-row {
+  position: absolute;
+  top: 20%;
+}
+
+.rightcol_shoe {
+  top: 10%;
+  right: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .rightcol_shoe {
+    width: 40%;
+    height: 40%;
+    top: 10%;
+    right: 5%;
+  }
+  .welcomesection-col h1,
+  .welcomesection-col h2 {
+    font-size: 26px;
+  }
+  .welcomesection-col p {
+    font-size: 10px;
+  }
+}
+.welcomesection-content .socialmed_icons {
+  color: black;
+  position: absolute;
+  top: 30% !important;
+}
+.welcomesection-content .socialmed_icons i:hover {
+  cursor: pointer;
+  color: rgb(212, 0, 255);
+}
+
+.welcomesection-col_button {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(181, 43, 197) 100%, rgb(0, 212, 255) 100%);
+}
+.welcomesection-col_button:hover i {
+  transform: translateX(5px);
+  color: black;
+}
+
+.addcart_button {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(181, 43, 197) 100%, rgb(0, 212, 255) 100%);
+}
+
+.product_section h1 {
+  background: -webkit-linear-gradient(#575555, #fc0681);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+.product_section .row .card:hover {
+  transform: scale(100%);
+  box-shadow: 5px 5px 10px black;
+}
+.product_section .row .card:hover .pop-up {
+  opacity: 1 !important;
+  transform: translateX(30px);
+}
+.product_section .row i:hover {
+  color: rgb(192, 19, 114);
+  cursor: pointer;
+}
+
+.about_section .container-fluid h2 {
+  background: -webkit-linear-gradient(#575555, #fc0681);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.row .about_text {
+  text-align: justify;
+}
+.row .col-2 img {
+  background-color: #ff3cac;
+  background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+  opacity: 0.8;
+}
+.row .col-2 img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.image_container {
+  border: 3px solid rgb(173, 34, 166);
+}
+.image_container:hover {
+  box-shadow: 0px 0px 10px purple;
+}
+.image_container img {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
+
+.text-container {
+  border: 3px solid rgb(173, 34, 166);
+}
+.text-container:hover {
+  box-shadow: 0px 0px 10px purple;
+}/*# sourceMappingURL=style.css.map */
