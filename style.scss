@@ -9,14 +9,27 @@
   h1 {
     cursor: pointer;
     font-family: "Caveat", cursive;
+    
 
     span:hover {
-      color: white !important;
+      color: rgb(184, 9, 131) !important;
     }
+  }
+  a:hover{
+      color: rgb(184, 9, 131) !important;
   }
 
   .navbar-brand:hover {
     color: black !important;
+  }
+}
+
+.navbar{
+  .container{
+     a:hover{
+      color: rgb(184, 9, 131) !important;
+  }
+
   }
 }
 
@@ -28,8 +41,7 @@
       margin: 0px 10px;
       color: white;
       &:hover {
-        color: black;
-      }
+        color: rgb(184, 9, 131) ;      }
     }
   }
 }
@@ -42,12 +54,19 @@
       border-radius: 10px;
     }
   }
+  
 }
 
+
+
+
 .icons {
-  i:hover {
+  i {
     color: white;
     cursor: pointer;
+    &:hover{
+      color: rgb(184, 9, 131) !important;
+    }
   }
 }
 // header and navbar end
@@ -76,6 +95,7 @@
 .rightcol_shoe {
   top: 10%;
   right: 10%;
+  width: 500px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -211,5 +231,29 @@
   &:hover{
     box-shadow: 0px 0px 10px purple;
 
+  }
+}
+
+.text-center{
+  button{
+    border: 1px solid rgb(173, 34, 166);
+    
+  }
+  button:hover{
+    color: white;
+    background-color: #784ba0;
+    box-shadow: 0px 0px 10px rgb(173, 34, 166);
+  }
+}
+
+// testimonials
+
+.col-md-4{
+  img{
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 72px;
+    height: 72px;
+    box-shadow: 0px 0px 5px black;
   }
 }
